@@ -84,3 +84,40 @@ img {
 
 
 }
+
+.left {
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  align-self: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 90px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: px 16px;
+  z-index: 1;
+
+}
+.dropdown-content a {
+  display: block;
+  margin: 10px 0;
+
+}
+/* .dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+.dropdown span {
+  margin-right: 15px;
+
+}
+.dropdown a {
+  color: black;
+}
