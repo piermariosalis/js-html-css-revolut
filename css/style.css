@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+
+ul li, a {
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  width: 60px;
+  height: 20px;
+  align-self: center;
+
+
+}
+.header {
+
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  display: flex;
+}
+
+.menu {
+
+  width: 100%;
+  display: flex;
+
+}
+.menu li {
+  display: inline-block;
+  align-self: center;
+
+}
+
+.menu li a {
+  padding: 15px;
+  display: block;
+  color: black;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.logo {
+
+  display: flex;
+
+}
+
+.access, .download {
+
+  align-self: center;
+
+}
+
+.access > .button {
+  background: #EDEDED;
+  color: black;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 15px 28px;
+  align-self: center;
+  margin-right: 15px;
+}
+
+.download > .button {
+  background: black;
+  color: white;
+  border-radius: 7px;
+  display: inline-block;
+  padding: 18px 28px;
+
+
+}
